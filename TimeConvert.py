@@ -12,6 +12,5 @@ cur_min = curTimeMin(cur_hour)
 cur_sec = curTimeSec(cur_hour)
 
 
-
-
+# current hour to minutes to seconds
 print(cur_hour, cur_min, cur_sec)
