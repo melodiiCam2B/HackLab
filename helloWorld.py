@@ -17,7 +17,7 @@ print("world" >= 'world')
 
 print(strInt > strInt)
 
-print(f"hi{2}")
+#print(f"hi{2}")
 
-#i = input("input?")
-#print(i)
+i = input("input?")
+print(i)
