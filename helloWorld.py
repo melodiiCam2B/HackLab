@@ -14,3 +14,10 @@ print(int(intStr) + 2)
 print(int(intStr) ** 2)
 
 print("world" >= 'world')
+
+print(strInt > strInt)
+
+print(f"hi{2}")
+
+#i = input("input?")
+#print(i)
