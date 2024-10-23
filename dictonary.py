@@ -9,5 +9,6 @@ dict_replace = {
     'Dier':'cat'
 }
 
-for l in name: 
-  i2 += dict_replace[l] #it broke-
+i2 = dict_replace[name]
+
+print(i2)
