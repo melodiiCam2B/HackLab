@@ -1,0 +1,9 @@
+iq = input("number?")
+
+i2 = ''
+
+def equalNum(num):
+	return [ x for x in range(2,num+1,2)]
+
+i2 =equalNum(int(iq))
+print(i2)
