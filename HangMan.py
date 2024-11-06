@@ -1,10 +1,20 @@
 import random
 
+def wordchoice():
+    wordlist = []
+    filepath = "D:code/HackLab/Woordlijst.txt"
+    with open(filepath, "r") as words:
+        for line in words:
+            wordlist.append(line.strip())
+    return random.choice(wordlist)
+
+
+
 def hangman():
     word_list = ['python', 'java', 'kotlin', 'javascript', 'hangman', 'computer']
     
 
-    word = random.choice(word_list)
+    word = wordchoice()
     word_length = len(word)
     
 
@@ -15,7 +25,7 @@ def hangman():
     guessed_letters = []
     
     print("Welcome to Hangman!")
-    
+
 
     while attempts > 0:
         print(f"\nWord: {' '.join(display)}")
