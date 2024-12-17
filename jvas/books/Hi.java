@@ -9,4 +9,12 @@ public class Hi{
 
         System.out.println(books);
     }
+
+
+    public void showMainMenu(){}
+    public void handleAddBook(){}
+    public void showBookForm(){}
+    public void showAuthorMenu(){}
+    public void addBook(){}
+    public void showAllBooks(){}
 }
